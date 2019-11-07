@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Visualization</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark" style="background-color: #000000;">
+        <div class="row .col-md-1">
+            <a class="navbar-brand" href="../index.html">Latitude!</a>
+        </div>
+        <div class="row .col-md-3 .col-md-offset-8">
+            <a class="navbar-brand" href="../data/Comparison.html">Comparisons</a>
+            <a class="navbar-brand" href="../data/weather_data.html">Dataset</a>
+            <div class="btn-group">
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Visualizations
+                </button>
+
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../Visualization/Cloud.html">Cloud</a>
+                    <a class="dropdown-item" href="../Visualization/Humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="../Visualization/Temperature.html">Temperature</a>
+                    <a class="dropdown-item" href="../Visualization/Wind.html">Wind</a>
+                </div>
+                        
+            </div>
+        </div>
+    </nav>
+</body>
+
+<body style="background-color: purple;">
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="box">
+                    <div class="page-header">
+                        <br>
+                        <h1 class="title" style="color: white;">Comparison: Latitude vs. X</h1>
+                    </div>
+                    <div class="box">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-8">
+                <div class="box" style="background-color: white;">
+                    <div class="row">
+                        <h3 class="col-md-6 col-sm-12" style="color: purple;">VS. Max Temperature</h3>
+                        <h3 class="col-md-6 col-sm-12" style="color: purple;">VS. Humidity</h3>
+                    </div>
+                    <div class="row">
+                        <img src="../Resources/assets/images/Fig1.png" class="col-md-6 col-sm-12" alt="Latitude vs. Max Temperature"></a>
+                        <img src="../Resources/assets/images/Fig2.png" class="col-md-6 col-sm-12" alt="Latitude vs. Humidity"></a>
+                    </div>
+
+                    <div class="row">
+                        <h3 class="col-md-6 col-sm-12" style="color: purple;">VS. Cloudiness</h3>
+                        <h3 class="col-md-6 col-sm-12" style="color: purple;">VS. Wind Speed</h3>
+                    </div>
+                    <div class="row">
+                        <img src="../Resources/assets/images/Fig3.png" class="col-md-6 col-sm-12" alt="Latitude vs. Cloudiness">
+                        <img src="../Resources/assets/images/Fig4.png" class="col-md-6 col-sm-12" alt="Latitude vs. Wind Speed">
+                    </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+</div>
+</body>
+<!--   Core JS Files   -->
+<script src="assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<!--  Charts Plugin -->
+<script src="assets/js/chartist.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="assets/js/bootstrap-notify.js"></script>
+</html>
